@@ -7,5 +7,5 @@
 * Unit testing with TestClient
 * CI/CD test automation with Github Actions
 
-![Tests](https://github.com/amerz84/fastapi-example/blob/actions/workflows/ci.yaml/badge.svg)
+![CI Tests](https://github.com/amerz84/fastapi-example/github/workflows/ci.yaml/badge.svg)
 
