@@ -9,7 +9,7 @@ client = TestClient(app)
 
 @pytest.fixture()
 def fake_order():
-    return SalesOrder(
+    yield SalesOrder(
             id="c83282f3-1f55-4206-88f1-e0de75565377",
             invoice_number="1",
             date_created="2024-07-12T10:56:44.697700"
